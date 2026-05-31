@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nómina App — Descarga Oficial</title>
+  <meta name="description" content="Descarga oficial de Nómina App para Android y Windows. Creadores: Rogelio Espino y Armando Morales, CBTis 278.">
+  
+  <!-- Premium luxurious fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background gold particles canvas -->
+  <canvas id="gold-particles"></canvas>
+
+  <!-- Premium Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo-section reveal">
+        <img src="assets/logo_cbtis.png" alt="CBTis 278 Logo" class="school-logo">
+        <div class="school-text">
+          <span class="school-title">CBTis 278</span>
+          <span class="school-subtitle">Centro de Bachillerato Tecnológico</span>
+        </div>
+      </div>
+      <nav class="reveal">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#descarga" class="nav-link nav-btn-gold">Instalar App</a>
+        <a href="#academicos" class="nav-link">Créditos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <div class="badge">PROYECTO ESCOLAR OFICIAL</div>
+        <h1>Una experiencia de nómina <span class="gold-gradient-text">excepcional</span></h1>
+        <p class="hero-p">
+          Presentamos <strong>Nómina App</strong>, la solución definitiva para gestionar percepciones y deducciones con una precisión milimétrica, diseñada bajo los más altos estándares visuales y de adaptabilidad interactiva.
+        </p>
+        <div class="hero-actions">
+          <a href="#descarga" class="btn btn-gold glow-effect">
+            Descargar Aplicación
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          </a>
+          <a href="#academicos" class="btn btn-outline">
+            Ver Credenciales
+          </a>
+        </div>
+      </div>
+      <div class="hero-showcase reveal">
+        <div class="mockup-wrapper">
+          <div class="mockup-glow"></div>
+          <img src="assets/showcase.png" alt="Nómina App Showcase Mockup" class="mockup-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Downloads Section -->
+  <section id="descarga" class="downloads-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Instalación <span class="gold-gradient-text">Instantánea</span></h2>
+        <p class="section-subtitle">Descarga e instala Nómina App directamente en tu plataforma preferida.</p>
+      </div>
+      
+      <div class="download-grid">
+        <!-- Android Download Card -->
+        <div class="download-card reveal">
+          <div class="card-glow"></div>
+          <div class="platform-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4M5 7.5L8 10M19 7.5L16 10M6 14c0 3.3 2.7 6 6 6s6-2.7 6-6V9H6v5z"/><rect x="8" y="20" width="2" height="3" rx="1"/><rect x="14" y="20" width="2" height="3" rx="1"/><circle cx="10" cy="13" r="1" fill="currentColor"/><circle cx="14" cy="13" r="1" fill="currentColor"/></svg>
+          </div>
+          <h3>Android Edition</h3>
+          <p class="card-desc">Instala el archivo APK en tu dispositivo móvil. Incluye la reproducción del video de entrada original y un diseño ultra-compacto optimizado para pantallas táctiles.</p>
+          <div class="card-meta">
+            <span class="meta-item">Versión 2.1.0</span>
+            <span class="meta-item">APK (60.1 MB)</span>
+          </div>
+          <a href="assets/nomina_app_android.apk" class="btn btn-gold btn-full glow-effect" download>
+            Descargar APK
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          </a>
+        </div>
+
+        <!-- Windows Download Card -->
+        <div class="download-card reveal">
+          <div class="card-glow"></div>
+          <div class="platform-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18M3 12h18"/></svg>
+          </div>
+          <h3>Windows Desktop</h3>
+          <p class="card-desc">La experiencia definitiva de escritorio en pantalla completa. Soporta ventana vertical inteligente forzada (F11) y botones glassmórficos integrados en el runner nativo.</p>
+          <div class="card-meta">
+            <span class="meta-item">Versión 2.1.0</span>
+            <span class="meta-item">ZIP (15.4 MB)</span>
+          </div>
+          <a href="assets/nomina_app_windows.zip" class="btn btn-gold btn-full glow-effect" download>
+            Descargar ZIP (PC)
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Credits Section -->
+  <section id="academicos" class="academic-section">
+    <div class="container">
+      <div class="glass-container reveal">
+        <div class="border-glow-gold"></div>
+        <div class="academic-header">
+          <div class="gold-seal">CBTis 278</div>
+          <h2>Información Académica</h2>
+          <div class="separator-gold"></div>
+        </div>
+        
+        <div class="credits-grid">
+          <div class="credit-item">
+            <span class="credit-label">Materia</span>
+            <span class="credit-value gold-gradient-text">Gestiona Dispositivos</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-label">Profesora</span>
+            <span class="credit-value">Isaura Ossiris Valdes</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-label">Creadores</span>
+            <span class="credit-value">Rogelio Espino & Armando Morales</span>
+          </div>
+        </div>
+        
+        <p class="academic-note">
+          Proyecto escolar desarrollado con tecnologías Flutter nativas para Windows Runner C++ y Android SDK. Evaluado y certificado con el diseño y experiencia de usuario más sobresalientes del curso.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Elegant Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <img src="assets/logo_cbtis.png" alt="CBTis Logo" class="footer-logo">
+        <p>&copy; 2026 Creadores Rogelio Espino & Armando Morales. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-right">
+        <p>CBTis 278 · Materia: Gestiona Dispositivos · Isaura Ossiris Valdes</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Web Logic Script -->
+  <script src="app.js"></script>
+</body>
+</html>
